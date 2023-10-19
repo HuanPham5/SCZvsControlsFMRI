@@ -1,0 +1,89 @@
+Research Project: how to use GAN to classify 4D images into 2 groups, schizophrenia and control
+Professor John and Professor Wu
+
+
+data from: https://fcon_1000.projects.nitrc.org/indi/retro/cobre.html
+
+Background:
+
+Schizophrenia: a serious mental illness that affects how a person thinks, feels, and behaves. 
+People with schizophrenia may seem like they have lost touch with reality, which can be distressing for them and for their family and friends. 
+The symptoms of schizophrenia can make it difficult to participate in usual, everyday activities, but effective treatments are available.
+
+
+The data:
+
+raw anatomical and functional MR data from 72 patients with Schizophrenia and 75 healthy controls (ages ranging from 18 to 65 in each group).
+All subjects were screened and excluded if they had; history of neurological disorder, history of mental retardation, 
+history of severe head trauma with more than 5 minutes loss of consciousness, 
+history of substance abuse or dependence within the last 12 months. 
+Diagnostic information was collected using the Structured Clinical Interview used for DSM Disorders (SCID).
+
+A multi-echo MPRAGE (MEMPR) sequence was used with the following parameters:
+ TR/TE/TI = 2530/[1.64, 3.5, 5.36, 7.22, 9.08]/900 ms, flip angle = 7°, 
+ FOV = 256x256 mm, Slab thickness = 176 mm, Matrix = 256x256x176, Voxel size =1x1x1 mm,
+Number of echos = 5, Pixel bandwidth =650 Hz, Total scan time = 6 min. 
+With 5 echoes, the TR, TI and time to encode partitions for the MEMPR are similar to that of a conventional MPRAGE,
+ resulting in similar GM/WM/CSF contrast.
+
+Rest data was collected with single-shot full k-space echo-planar imaging (EPI) with ramp sampling correction using
+ the intercomissural line (AC-PC) as a reference (TR: 2 s, TE: 29 ms, matrix size: 64x64, 32 slices, voxel size: 3x3x4 mm3).
+
+Slice Acquisition Order:
+Rest scan - collected in the Axial plane - series ascending - multi slice mode - interleaved
+MPRAGE - collected in the Sag plane - series interleaved - multi slice mode - single shot
+
+
+
+
+Past works:
+1) Functional Network Connectivity (FNC)-based GAN:
+
+This GAN architecture, consisting of a generator and a discriminator with four fully-connected layers, 
+was applied for fMRI classification with the intention of diagnosing specific conditions through identifying a set of features​.
+
+https://www.sciencedirect.com/science/article/abs/pii/S0165027020301795#:~:text=As%20shown%20in%20Fig,be%20used%20to%20diagnose
+
+
+2) Wasserstein Generative Adversarial Network (WGAN):
+
+WGAN was utilized to augment brain functional connectivity data from fMRI to improve classification accuracy. 
+The study focused on enhancing the functional connectivity network for better classification results​.
+
+https://link.springer.com/chapter/10.1007/978-3-030-31654-9_38#:~:text=In%20this%20paper%2C%20we%20study,to%20augment%20brain%20functional%20connectivity
+
+
+3) BrainGAN:
+The paper introduces a framework named BrainGAN for creating and categorizing brain MRI images through 
+Generative Adversarial Network (GAN) structures and deep learning models. 
+Additionally, it offers an automated method to ensure the generated images meet a satisfactory standard. 
+The framework utilizes three models: CNN, MobileNetV2, and ResNet152V2​1​.
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9185441/
+
+
+
+
+
+
+
+
+
+
+To do list: 
+
+1) have a subset: 30 images ready by next week
+
+2) match id in csv with the files in 4D, that is Schizophrenia and control
+
+should be 173 when combined from demographic csv
+
+
+
+
+
+
+
+
+helpful resources:
+
