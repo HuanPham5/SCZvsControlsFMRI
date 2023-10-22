@@ -125,3 +125,5 @@ Update:
 We mananged to use a simple GAN model (based on the github) to generate new samples, I trained it for 10000 epochs and it looks somewhat similar.
 I don't know how accurate it is though.
 
+I did save the checkpoints but the checkpoint for GAN is too big.
+
