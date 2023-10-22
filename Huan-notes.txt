@@ -65,8 +65,40 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9185441/
 
 
 
+Normalize the data:
 
 
+
+The formula used is:
+
+\[ \text{normalized\_data} = \left( \frac{\text{data} - \text{min\_value}}{\text{max\_value} - \text{min\_value}} \right) \times 2 - 1 \]
+
+1. **Min-Max Normalization**:
+   - The portion \(\frac{\text{data} - \text{min\_value}}{\text{max\_value} - \text{min\_value}}\) scales the data to the range \([0, 1]\).
+
+2. **Scaling and Shifting**:
+   - The expression \(\left( \frac{\text{data} - \text{min\_value}}{\text{max\_value} - \text{min\_value}} \right) \times 2\) then scales the range from \([0, 1]\) to \([0, 2]\).
+   - Finally, subtracting \(1\) from the expression shifts the range from \([0, 2]\) to \([-1, 1]\).
+
+Therefore, the entire expression scales and shifts the data to the range \([-1, 1]\).
+
+
+
+
+
+
+
+
+
+
+
+Scrapwork: 
+
+3 + 1 tensor:
+
+summing the z-axis, to get 2D picture
+
+3 x-ray picture, collapsing each axis and then concatenate at the end
 
 
 
@@ -81,9 +113,15 @@ should be 173 when combined from demographic csv
 
 
 
+try preprocessing, summing up one of the axis, but always keep the time axis
+try to generate images based on 
 
 
 
 
-helpful resources:
+
+Update:
+
+We mananged to use a simple GAN model (based on the github) to generate new samples, I trained it for 10000 epochs and it looks somewhat similar.
+I don't know how accurate it is though.
 
