@@ -118,6 +118,13 @@ try to generate images based on
 
 
 
+ideas to try for next week (10/27/2023):
+
+sum up y-axis
+just zoom the original picture,  no padding
+try 91x91x91
+
+
 
 
 Update:
@@ -126,4 +133,13 @@ We mananged to use a simple GAN model (based on the github) to generate new samp
 I don't know how accurate it is though.
 
 I did save the checkpoints but the checkpoint for GAN is too big.
+
+
+For Version 2 of GAN:
+
+we try 91x91x143
+
+a bigger network architecture
+
+trained for 1000 epochs only because it was bigger
 
