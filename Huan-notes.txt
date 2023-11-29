@@ -137,9 +137,20 @@ I did save the checkpoints but the checkpoint for GAN is too big.
 
 For Version 2 of GAN:
 
-we try 91x91x143
+we try 91x91x143 -- didn't work
+
+settle with 84x84x72
 
 a bigger network architecture
 
 trained for 1000 epochs only because it was bigger
+
+Because we are doing a basic GAN, it is unconditional. Meaning the network as a whole
+doesn't inherently classify images into pre-labeled categories during the generation process.
+
+Problem: we don't know the generated image is what. It's probably mixing/blended images with schizophrenia
+and non-schizophrenia.
+
+But at least we manage to generate 3D volumetric data
+
 
