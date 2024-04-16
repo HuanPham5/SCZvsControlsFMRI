@@ -34,9 +34,9 @@ or
 conda env list
 ```
 To check if the environment is activated look at the:
-```
+``
 (base) C:\Users\username>
-```
+``
 
 ## Usage
 Inside the notebook, check the following:
