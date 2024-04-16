@@ -27,6 +27,9 @@ pip install -r requirements.txt
 To check how many environments you have:
 ```sh
 conda info -e
+```
+or 
+```sh
 conda env list
 ```
 
