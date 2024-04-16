@@ -13,7 +13,7 @@ Install Anaconda
 ### Installation
 
 ```sh
-`conda create --name gan python=3.11.5`
+conda create --name gan python=3.11.5
 ```
 
 '''sh
