@@ -60,6 +60,10 @@ Then
 python x-collapsed.ipynb >> output_log_x.txt
 ```
 
+## Contact
+
+Tieu Hoang Huan Pham - tp397@cornell.edu
+
 
 
 
