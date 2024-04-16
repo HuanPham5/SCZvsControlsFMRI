@@ -24,5 +24,11 @@ conda activate gan
 pip install -r requirements.txt
 ```
 
+To check how many environments you have:
+```sh
+conda info -eor
+```
+‘conda env list’
+
 
 
