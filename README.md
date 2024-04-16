@@ -1,3 +1,5 @@
 # GAN-unprocessed-fMRI
 
-## Use WGAN for binary classification
+# Project advisor: Professor Majnu John, Professor Yihren Wu
+
+## Use WGAN for binary classification of 4D fMRI images
