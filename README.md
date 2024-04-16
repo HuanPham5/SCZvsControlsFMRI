@@ -35,5 +35,16 @@ or
 conda env list
 ```
 
+## Usage
+Inside the notebook, check the following:
+Under # GAN Training Data Selection, make sure the numbers are 50, 50, 9
+Change num_iterations
+Change directory path
+Change epochs
+Then back to anaconda terminal
+‘jupyter nbconvert --to python x-collapsed.ipynb’
+‘python x-collapsed.ipynb >> output_log_x.txt’
+
+
 
 
