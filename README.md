@@ -25,7 +25,7 @@ conda activate gan
 ```sh
 pip install -r requirements.txt
 ```
-*To check how many environments you have:
+* To check how many environments you have:
 ```sh
 conda info -e
 ```
@@ -33,10 +33,12 @@ or
 ```sh
 conda env list
 ```
-To check if the environment is activated look at the:
-``
-(base) C:\Users\username>
-``
+* To check if the environment is activated look at the:
+`(base) C:\Users\username>`
+Inside () should the change to
+`(gan) C:\Users\username>`
+
+
 
 ## Usage
 Inside the notebook, check the following:
