@@ -21,10 +21,6 @@ google-auth-oauthlib==1.1.0
 google-pasta==0.2.0
 grpcio==1.59.3
 inflection==0.5.1
-
-joblib @ file:///croot/joblib_1685113087166/work
-json5 @ file:///tmp/build/80754af9/json5_1624432770122/work
-jsonpatch @ file:///tmp/build/80754af9/jsonpatch_1615747632069/work
 jsonpointer==2.1
 keras==2.15.0
 libclang==16.0.6
