@@ -37,7 +37,9 @@ conda env list
 
 ## Usage
 Inside the notebook, check the following:
-Under # GAN Training Data Selection, make sure the numbers are 50, 50, 9
+
+* Under # GAN Training Data Selection, make sure the numbers are 50, 50, 9
+
 Change num_iterations
 Change directory path
 Change epochs
