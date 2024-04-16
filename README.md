@@ -34,8 +34,11 @@ or
 conda env list
 ```
 * To check if the environment is activated look at the:
+
 `(base) C:\Users\username>`
+
 Inside () should the change to
+
 `(gan) C:\Users\username>`
 
 
