@@ -17,12 +17,12 @@ conda create --name gan python=3.11.5
 ```
 
 ```sh
-`conda activate gan`
+conda activate gan
 ```
 
-'''sh
+```sh
 pip install -r requirements.txt
-'''
+```
 
 
 
