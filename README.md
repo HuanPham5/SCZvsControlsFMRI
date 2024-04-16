@@ -13,26 +13,29 @@ Install dependencies in requirements.txt
 Install Anaconda
 
 ### Installation
-
+* Make a virtual environment using Anaconda prompt
 ```sh
 conda create --name gan python=3.11.5
 ```
-
+* Activate the environment
 ```sh
 conda activate gan
 ```
-
+* Run this to install all dependencies
 ```sh
 pip install -r requirements.txt
 ```
-
-To check how many environments you have:
+*To check how many environments you have:
 ```sh
 conda info -e
 ```
 or 
 ```sh
 conda env list
+```
+To check if the environment is activated look at the:
+```
+(base) C:\Users\username>
 ```
 
 ## Usage
