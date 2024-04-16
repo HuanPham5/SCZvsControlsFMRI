@@ -4,6 +4,8 @@
 
 ### Student: Tieu Hoang Huan Pham
 
+### Project description: Use WGAN for binary classification via transfer learning
+
 ## Getting Started
 Install dependencies in requirements.txt
 
