@@ -4,7 +4,7 @@
 
 ### Submitted to Journal of Data Science
 
-### Abstract
+## Abstract
 
 A wide array of machine learning approaches have been employed for differentiating patients
 with mental health disorders from healthy controls using neuroimaging data. However,
