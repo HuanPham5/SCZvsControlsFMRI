@@ -1,6 +1,6 @@
 # Schizophrenia versus Healthy Controls Classification based on fMRI 4D Spatiotemporal Data
 
-### Authors: Tieu Hoang Huan Pham, Yihren Wu, Toshikazu Ikutac, Majnu John
+### Authors: Tieu Hoang Huan Pham, Yihren Wu, Toshikazu Ikuta, Majnu John
 
 ### Submitted to Journal of Data Science
 
@@ -26,7 +26,7 @@ more complex architectures that we employed were comparatively poorer.
 
 Tieu Hoang Huan Pham - tp397@cornell.edu
 
-Majnu John - mjohn5@northwell.edu, majnu.john@hofstra.edu
+Majnu John - majnu.john@hofstra.edu
 
 ## Link to full paper
 
