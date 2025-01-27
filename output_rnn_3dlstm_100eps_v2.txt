@@ -1,131 +1,0 @@
-Total GAN control loaded: 50
-Total GAN schiz loaded: 50
-shape after normalization and padding (91, 109, 91, 146)
-Enabled memory growth for GPUs.
-Batch image shape: (2, 146, 91, 109, 91, 1)
-Batch labels shape: (2,)
-Available GPUs: ['/physical_device:GPU:0', '/physical_device:GPU:1', '/physical_device:GPU:2', '/physical_device:GPU:3', '/physical_device:GPU:4', '/physical_device:GPU:5', '/physical_device:GPU:6', '/physical_device:GPU:7']
-Model: "model"
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
-=================================================================
- input_1 (InputLayer)        [(None, 146, 91, 109, 9   0         
-                             1, 1)]                              
-                                                                 
- conv_lstm3d (ConvLSTM3D)    (None, 146, 91, 109, 91   656       
-                             , 2)                                
-                                                                 
- time_distributed (TimeDist  (None, 146, 2)            0         
- ributed)                                                        
-                                                                 
- dense (Dense)               (None, 146, 8)            24        
-                                                                 
- dense_1 (Dense)             (None, 146, 1)            9         
-                                                                 
-=================================================================
-Total params: 689 (2.69 KB)
-Trainable params: 689 (2.69 KB)
-Non-trainable params: 0 (0.00 Byte)
-_________________________________________________________________
-Epoch 1, Loss: 0.6925182342529297, Training Accuracy: 0.46000000834465027
-Epoch 2, Loss: 0.690650999546051, Training Accuracy: 0.5299999713897705
-Epoch 3, Loss: 0.6890170574188232, Training Accuracy: 0.5899999737739563
-Epoch 4, Loss: 0.6873491406440735, Training Accuracy: 0.5899999737739563
-Epoch 5, Loss: 0.6854856014251709, Training Accuracy: 0.5899999737739563
-Epoch 6, Loss: 0.6839123368263245, Training Accuracy: 0.5799999833106995
-Epoch 7, Loss: 0.6815807223320007, Training Accuracy: 0.5899999737739563
-Epoch 8, Loss: 0.6801592111587524, Training Accuracy: 0.5899999737739563
-Epoch 9, Loss: 0.6783080101013184, Training Accuracy: 0.5899999737739563
-Epoch 10, Loss: 0.6764717698097229, Training Accuracy: 0.5899999737739563
-Epoch 11, Loss: 0.6746283173561096, Training Accuracy: 0.5899999737739563
-Epoch 12, Loss: 0.6735187768936157, Training Accuracy: 0.6000000238418579
-Epoch 13, Loss: 0.672451376914978, Training Accuracy: 0.6000000238418579
-Epoch 14, Loss: 0.6712802052497864, Training Accuracy: 0.6000000238418579
-Epoch 15, Loss: 0.6703305840492249, Training Accuracy: 0.6000000238418579
-Epoch 16, Loss: 0.6698400378227234, Training Accuracy: 0.6000000238418579
-Epoch 17, Loss: 0.6687248945236206, Training Accuracy: 0.5899999737739563
-Epoch 18, Loss: 0.6682467460632324, Training Accuracy: 0.5899999737739563
-Epoch 19, Loss: 0.6678512692451477, Training Accuracy: 0.5899999737739563
-Epoch 20, Loss: 0.6680765748023987, Training Accuracy: 0.5899999737739563
-Epoch 21, Loss: 0.6687347888946533, Training Accuracy: 0.5899999737739563
-Epoch 22, Loss: 0.6670892834663391, Training Accuracy: 0.5899999737739563
-Epoch 23, Loss: 0.667095422744751, Training Accuracy: 0.5899999737739563
-Epoch 24, Loss: 0.6666791439056396, Training Accuracy: 0.5899999737739563
-Epoch 25, Loss: 0.6660693287849426, Training Accuracy: 0.5899999737739563
-Epoch 26, Loss: 0.6658810973167419, Training Accuracy: 0.5899999737739563
-Epoch 27, Loss: 0.6656137704849243, Training Accuracy: 0.5899999737739563
-Epoch 28, Loss: 0.6652804613113403, Training Accuracy: 0.5899999737739563
-Epoch 29, Loss: 0.6649539470672607, Training Accuracy: 0.5899999737739563
-Epoch 30, Loss: 0.6647878289222717, Training Accuracy: 0.5899999737739563
-Epoch 31, Loss: 0.664635419845581, Training Accuracy: 0.6000000238418579
-Epoch 32, Loss: 0.6644158363342285, Training Accuracy: 0.6000000238418579
-Epoch 33, Loss: 0.6641259789466858, Training Accuracy: 0.6000000238418579
-Epoch 34, Loss: 0.6639397144317627, Training Accuracy: 0.6000000238418579
-Epoch 35, Loss: 0.6636837720870972, Training Accuracy: 0.6000000238418579
-Epoch 36, Loss: 0.6636107563972473, Training Accuracy: 0.6000000238418579
-Epoch 37, Loss: 0.6633153557777405, Training Accuracy: 0.6000000238418579
-Epoch 38, Loss: 0.6632245779037476, Training Accuracy: 0.6000000238418579
-Epoch 39, Loss: 0.6628539562225342, Training Accuracy: 0.6000000238418579
-Epoch 40, Loss: 0.6631116271018982, Training Accuracy: 0.6000000238418579
-Epoch 41, Loss: 0.6624575257301331, Training Accuracy: 0.5899999737739563
-Epoch 42, Loss: 0.6627031564712524, Training Accuracy: 0.6000000238418579
-Epoch 43, Loss: 0.662156879901886, Training Accuracy: 0.5899999737739563
-Epoch 44, Loss: 0.6622473001480103, Training Accuracy: 0.5899999737739563
-Epoch 45, Loss: 0.6619495153427124, Training Accuracy: 0.5899999737739563
-Epoch 46, Loss: 0.6617668867111206, Training Accuracy: 0.5899999737739563
-Epoch 47, Loss: 0.6615363359451294, Training Accuracy: 0.5899999737739563
-Epoch 48, Loss: 0.6616387963294983, Training Accuracy: 0.5899999737739563
-Epoch 49, Loss: 0.6612685322761536, Training Accuracy: 0.5899999737739563
-Epoch 50, Loss: 0.6610982418060303, Training Accuracy: 0.5899999737739563
-Epoch 51, Loss: 0.6610572338104248, Training Accuracy: 0.5899999737739563
-Epoch 52, Loss: 0.6608991026878357, Training Accuracy: 0.5799999833106995
-Epoch 53, Loss: 0.660780668258667, Training Accuracy: 0.5799999833106995
-Epoch 54, Loss: 0.6606884002685547, Training Accuracy: 0.5799999833106995
-Epoch 55, Loss: 0.6603260040283203, Training Accuracy: 0.5799999833106995
-Epoch 56, Loss: 0.6604427099227905, Training Accuracy: 0.5799999833106995
-Epoch 57, Loss: 0.6601299047470093, Training Accuracy: 0.5799999833106995
-Epoch 58, Loss: 0.6601526737213135, Training Accuracy: 0.5799999833106995
-Epoch 59, Loss: 0.6598819494247437, Training Accuracy: 0.5799999833106995
-Epoch 60, Loss: 0.6597872972488403, Training Accuracy: 0.5799999833106995
-Epoch 61, Loss: 0.6596839427947998, Training Accuracy: 0.5799999833106995
-Epoch 62, Loss: 0.6594204902648926, Training Accuracy: 0.5699999928474426
-Epoch 63, Loss: 0.6592532396316528, Training Accuracy: 0.5699999928474426
-Epoch 64, Loss: 0.6593197584152222, Training Accuracy: 0.5699999928474426
-Epoch 65, Loss: 0.6590184569358826, Training Accuracy: 0.5699999928474426
-Epoch 66, Loss: 0.6589867472648621, Training Accuracy: 0.5699999928474426
-Epoch 67, Loss: 0.6586760878562927, Training Accuracy: 0.5699999928474426
-Epoch 68, Loss: 0.6588390469551086, Training Accuracy: 0.5600000023841858
-Epoch 69, Loss: 0.6582808494567871, Training Accuracy: 0.550000011920929
-Epoch 70, Loss: 0.658430278301239, Training Accuracy: 0.5600000023841858
-Epoch 71, Loss: 0.6578826308250427, Training Accuracy: 0.550000011920929
-Epoch 72, Loss: 0.6579999327659607, Training Accuracy: 0.550000011920929
-Epoch 73, Loss: 0.6574088335037231, Training Accuracy: 0.550000011920929
-Epoch 74, Loss: 0.6578365564346313, Training Accuracy: 0.550000011920929
-Epoch 75, Loss: 0.6573018431663513, Training Accuracy: 0.550000011920929
-Epoch 76, Loss: 0.6575210690498352, Training Accuracy: 0.5400000214576721
-Epoch 77, Loss: 0.6569739580154419, Training Accuracy: 0.550000011920929
-Epoch 78, Loss: 0.6565622687339783, Training Accuracy: 0.5600000023841858
-Epoch 79, Loss: 0.6563713550567627, Training Accuracy: 0.550000011920929
-Epoch 80, Loss: 0.6562469601631165, Training Accuracy: 0.5600000023841858
-Epoch 81, Loss: 0.6559603810310364, Training Accuracy: 0.5600000023841858
-Epoch 82, Loss: 0.6558581590652466, Training Accuracy: 0.5699999928474426
-Epoch 83, Loss: 0.6556680798530579, Training Accuracy: 0.5600000023841858
-Epoch 84, Loss: 0.6553954482078552, Training Accuracy: 0.5699999928474426
-Epoch 85, Loss: 0.6552470922470093, Training Accuracy: 0.5699999928474426
-Epoch 86, Loss: 0.6552298069000244, Training Accuracy: 0.5799999833106995
-Epoch 87, Loss: 0.6548574566841125, Training Accuracy: 0.5899999737739563
-Epoch 88, Loss: 0.6551215648651123, Training Accuracy: 0.5799999833106995
-Epoch 89, Loss: 0.6543853878974915, Training Accuracy: 0.5899999737739563
-Epoch 90, Loss: 0.6547031402587891, Training Accuracy: 0.5799999833106995
-Epoch 91, Loss: 0.6540085673332214, Training Accuracy: 0.5799999833106995
-Epoch 92, Loss: 0.6539382338523865, Training Accuracy: 0.5799999833106995
-Epoch 93, Loss: 0.653391420841217, Training Accuracy: 0.5799999833106995
-Epoch 94, Loss: 0.6536345481872559, Training Accuracy: 0.5799999833106995
-Epoch 95, Loss: 0.6533107757568359, Training Accuracy: 0.5799999833106995
-Epoch 96, Loss: 0.6531396508216858, Training Accuracy: 0.5799999833106995
-Epoch 97, Loss: 0.6521233916282654, Training Accuracy: 0.5799999833106995
-Epoch 98, Loss: 0.6519947052001953, Training Accuracy: 0.5799999833106995
-Epoch 99, Loss: 0.6516320109367371, Training Accuracy: 0.5799999833106995
-Epoch 100, Loss: 0.6512592434883118, Training Accuracy: 0.5799999833106995
-Test Loss: 0.7176985144615173, Test Accuracy: 0.6666666865348816
- 1/18 [>.............................] - ETA: 10:01 2/18 [==>...........................] - ETA: 34s   3/18 [====>.........................] - ETA: 32s 4/18 [=====>........................] - ETA: 31s 5/18 [=======>......................] - ETA: 25s 6/18 [=========>....................] - ETA: 24s 7/18 [==========>...................] - ETA: 22s 8/18 [============>.................] - ETA: 20s 9/18 [==============>...............] - ETA: 17s10/18 [===============>..............] - ETA: 15s11/18 [=================>............] - ETA: 13s12/18 [===================>..........] - ETA: 11s13/18 [====================>.........] - ETA: 9s 14/18 [======================>.......] - ETA: 7s15/18 [========================>.....] - ETA: 5s16/18 [=========================>....] - ETA: 3s17/18 [===========================>..] - ETA: 1s18/18 [==============================] - ETA: 0s18/18 [==============================] - 69s 2s/step
