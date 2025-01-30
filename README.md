@@ -18,6 +18,8 @@ Majnu John - majnu.john@hofstra.edu
 
 https://www.researchgate.net/publication/388415742_Schizophrenia_versus_Healthy_Controls_Classification_based_on_fMRI_4D_Spatiotemporal_Data
 
+https://www.medrxiv.org/content/10.1101/2025.01.26.25321159v1
+
 
 
 
