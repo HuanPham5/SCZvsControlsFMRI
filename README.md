@@ -2,7 +2,7 @@
 
 ### Authors: Tieu Hoang Huan Pham, Yihren Wu, Toshikazu Ikuta, Majnu John
 
-### Submitted to Journal of Data Science
+### Submitted to Neurocomputing
 
 ## Abstract
 
