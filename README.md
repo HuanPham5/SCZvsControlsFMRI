@@ -2,7 +2,7 @@
 
 ### Authors: Tieu Hoang Huan Pham, Yihren Wu, Toshikazu Ikuta, Majnu John
 
-### Submitted to Neurocomputing
+### Submitted for publication
 
 ## Abstract
 
